@@ -14,11 +14,13 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'DogsterTBD',
         theme: new ThemeData(
-            primarySwatch: Colors.blue
+            primaryColor: Color.fromRGBO(143,184,237, 1.0),
+          fontFamily: 'OpenSans',
+          textSelectionColor: Colors.white,
+          textSelectionHandleColor: Colors.white
         ),
         routes: routes,
       ),
     );
   }
-
 }
